@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Validación de Certificado</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f6f7;
+            text-align: center;
+            padding: 40px;
+            color: #0c2340;
+        }
+        .container {
+            background: white;
+            max-width: 400px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 30px;
+            color: #003366;
+        }
+        .field-label {
+            font-weight: bold;
+            color: #003366;
+        }
+        .value {
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        .expired {
+            color: red;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .button {
+            background-color: #d32f2f;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            text-decoration: none;
+            font-size: 14px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Validación de Certificado</h1>
+        <div class="value"><span class="field-label">RUT:</span><br>26.929.134-6</div>
+        <div class="value"><span class="field-label">Nombre:</span><br>Mariela Judith Requena Arzapalo</div>
+        <div class="value"><span class="field-label">Programa:</span><br>Técnico en Administración Logística - Carrera Online</div>
+        <div class="value"><span class="field-label">Nombre del certificado:</span><br>Certificado de Alumno Regular</div>
+        <div class="value"><span class="field-label">Número de certificado:</span><br>CST-PM-2025-001</div>
+        <div class="value"><span class="field-label">Fecha de solicitud:</span><br>01/05/2025</div>
+        <div class="value"><span class="field-label">Fecha de caducidad:</span><br><span class="expired">Documento caduca el 31/05/2025</span></div>
+        <a href="#" class="button">Volver</a>
+    </div>
+</body>
+</html>
